@@ -1,0 +1,250 @@
+body{
+    /* margin: 0; */
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 20px;
+    background-color: rgb(235, 232, 232);
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+.header-bar{
+    /* border: 2px solid ; */
+    /* margin: 0px; */
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 100;
+
+}
+.left-section{
+   
+    display: flex;
+}
+.hamburger-menu{
+    height: 30px;
+}
+.youtube-logo{
+    height: 25px;
+    margin-left: 10px;
+}
+
+.middle-section{
+    flex: 1;
+    align-items: center;
+   
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    flex: 1;
+    height: 31px;
+    /* border-radius: 20px; */
+    border: 1px solid;
+    padding-left: 20px;
+    width: 0;
+}
+
+.search-button{
+    width: 40px;
+    height: 35px;
+    margin-left: -15px;
+}
+.search-icons,
+.right-icons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.search-icons .icon-name,
+.right-icons .icon-name{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 2px;
+    bottom: -30px;
+    /* left: -8px; */
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.search-icons:hover .icon-name,
+.right-icons:hover .icon-name{
+    opacity: 1;
+}
+
+.voice-search-button{
+    width: 40px;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: none;
+    /* padding: 5px; */
+}
+
+.right-section{
+   
+    margin-right: 10px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.upload-icon, .youtube-app-icon,
+.notification-icon, .channelpic-icon{
+    height: 35px;
+}
+.channelpic-icon{
+    border-radius: 50%;
+}
+
+
+.notification-icon{
+    position: relative;
+}
+.notification-count{
+    font-family: Roboto ,Arial;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    top: 0px;
+    right: -5px;
+}
+.mobile-header,
+.mobile-footer{
+    display: none;
+}
+
+
+
+.side-bar-section{
+   
+    margin-left: 0px;
+    width: 100px;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    
+
+    position: fixed;
+    top: 55px;
+    left: -2px;
+    bottom: 0px;
+}
+.side-icons{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.side-icons:hover{
+    background-color: lightgray;
+}
+.side-icons img{
+    height: 30px;
+}
+.side-icons div{
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.sidebar-icon-name{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    margin-top: -5px;
+    margin-left: 8px;
+}
+
+.name-icon{
+    margin-left: -5px !important;
+    font-size: 10px;
+}
+
+
+.content{
+    margin: -20px 15px 73px 51px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+
+}
+
+.video-info{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    padding: 5px;
+}
+.image-thumbnail{
+    width: 100%;
+    border-radius: 0px;
+}
+.channelpic-image{
+    height: 40px;
+    border-radius: 50%;
+}
+.video-box{
+    font-family: Roboto, Arial, sans-serif;
+}
+p{
+    margin-top: 0px;
+    margin-left: -20px;
+}
+.channel-name{
+    font-size: 15px;
+    margin-top: -8px;
+    color: #606060;
+    
+}
+.video-status{
+    font-size: 12px;
+    margin-top: -8px;
+    color: #606060;
+}
+.video-thumbnail{
+    position: relative;
+}
+.video-time{
+    font-family: Roboto, Arial, sans-serif;
+    background-color: black;
+    opacity: 100px;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.video-link{
+    text-decoration: none ;
+    color: black;
+}
+.video-title{
+   /* text-decoration: none; */
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} 

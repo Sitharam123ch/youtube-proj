@@ -1,0 +1,127 @@
+@media (min-width:0px) and (max-width:700px){
+
+    
+    body{
+        padding-top: 85px;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .mobile-header{
+        background-color: white;
+        /* padding: 15px; */
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+    }
+
+    .search-icon,
+    .notification-icon,
+    .side-bar-icons{
+        height: 30px;
+        padding: 10px;
+    }
+    .mobile-right-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between !important;
+        
+    }
+    .youtube-logo-mobile{
+        height: 24px;
+        
+        margin-left: 10px;
+    }
+
+    .header-bar{
+        display: none;
+    }
+    .side-bar-section{
+        display: none;
+    }
+      
+    .mobile-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        /* height: 50px;  */
+        background-color: white;
+        position: fixed ;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+    }
+    .footer-icons img{
+        padding:  5px 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+    }
+    .subscription-icon{
+        margin-left: 15px;
+    }
+
+    .video-box{
+        margin: 0px -18px 0px -16px;
+    }
+
+    .content{
+        grid-template-columns: 1fr;
+        margin: -34px -8px 61px 1px;
+        gap: 20px;
+    }
+
+    .image-thumbnail{
+        border-radius: 0px;
+    }
+
+    
+
+}
+
+@media (min-width:701px) and (max-width:999px){
+
+    .side-bar-section{
+        display: none;
+    }
+      
+    .mobile-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        /* height: 50px;  */
+        background-color: white;
+        position: fixed ;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+    }
+    .footer-icons img{
+        padding:  5px 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+    }
+    .subscription-icon{
+        margin-left: 15px;
+    }
+
+    .content{
+        grid-template-columns: 1fr 1fr;
+        margin: -46px -27px 78px -75px;
+        gap: 20px;
+    }
+}
